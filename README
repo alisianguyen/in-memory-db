@@ -1,0 +1,14 @@
+# In-Memory Database
+
+## Overview
+This project implements an in-memory key-value database with transactional support.
+
+## Features
+- Supports `get`, `put`, `begin_transaction`, `commit`, and `rollback` operations.
+- Transaction isolation ensures uncommitted changes are not visible.
+
+## How to Build
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd in-memory-database
